@@ -1,0 +1,14 @@
+[package]
+name = "apple-virtualization"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+block = { version = "0.1" }
+objc = "0.2"
+
+[build-dependencies]
+bindgen = { version = "0.60" }
+
+[dev-dependencies]
+tokio-test = "*"
